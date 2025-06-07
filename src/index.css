@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background: #141414;
+    font-family: "DM Sans", sans-serif;
+}
+
+header {
+    max-width: none !important;
+    padding: 0 !important;
+}
+
+.box-shadow {
+    box-shadow: rgba(249, 249, 249, 0.4) 0px -1px 2px 0px inset;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    color: black !important;
+}
+
+.swiper-pagination-bullet-active{
+    @apply
+    !bg-white
+}
+
+::-webkit-scrollbar{
+    width: 0;
+    display: none;
+}
